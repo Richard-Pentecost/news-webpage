@@ -17,9 +17,17 @@ nav {
 }
 
 ul {
-  border: 2px solid grey;
+  border: 2px solid rgb(128, 128, 128);
   margin: 4px;
   padding: 4px;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 main {
