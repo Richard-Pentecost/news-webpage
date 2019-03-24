@@ -5,13 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>News Page</title>
-  <link rel='stylesheet' href='style.css' type='text/css'/>
+  <link rel='stylesheet' href='main.css' type='text/css'/>
 </head>
 <body>
   <header>
     <h1>Manchester Morning News</h1>
     <nav>
-      <ul>
+      <ul class='links'>
         <li><a href='index.html'>Home</a></li>
         <li><a href='article.html'>News</a></li>
         <li><a href='#'>Weather</a></li>
@@ -35,7 +35,9 @@
         veniam duis andouille. Eu chicken ball tip pastrami. Excepteur 
         pariatur id spare ribs incididunt esse shankle cillum.</p>
       <figure>
-        <img src='https://i2-prod.manchestereveningnews.co.uk/incoming/article11678887.ece/ALTERNATES/s615b/JS95852406.jpg' alt='Manchester skyline'/>
+        <div class='img'>
+          <img class='fluid-image' src='https://i2-prod.manchestereveningnews.co.uk/incoming/article11678887.ece/ALTERNATES/s615b/JS95852406.jpg' alt='Manchester skyline'/>
+        </div>
         <figcaption>Manchester Skyline</figcaption>
       </figure>
       <p>Kielbasa pancetta swine, bacon non deserunt aliquip do filet mignon 
@@ -54,8 +56,10 @@
     </article>
     <aside>
       <h3>Author</h3>
-      <img src='' alt='author photo'/>
-      <h4>Richard Pentecost</h4>
+      <div class=img>
+        <img class='fluid-image' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHgkCRaVVIfnMZxoQohBSGTuubbJQ9x5meZwNaOhq0ejbaolI5dw' alt='author photo'/>
+      </div>
+      <h4>Mark</h4>
       <p>Ut short ribs tri-tip ham, pork belly cow meatloaf. Sausage laboris 
         andouille meatloaf, in quis beef exercitation consectetur. Shank 
         cillum ad buffalo occaecat rump. Turducken ullamco ut sunt, commodo 
