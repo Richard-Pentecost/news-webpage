@@ -1,0 +1,65 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  padding: 30px;
+  background: #322b32;
+  color: white;
+}
+
+.links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.links > li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.links > li > a {
+  color: white;
+}
+
+main {  
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+}
+
+article {
+  width: 66.6%;
+  padding-right: 30px;
+}
+
+.fluid-image {
+  width: 100%;
+  height: auto;
+}
+
+aside {
+  width: 33.3%;
+}
+
+footer { 
+  padding: 30px;
+}
+
+.index-article {
+  width: 33.3%;
+}
+
+#index-title {
+  padding-left: 30px;
+}
+
+#index-main {
+  padding-top: 0px;
+}
+
+.index-headline {
+  color: black;
+  text-decoration: none;
+}
